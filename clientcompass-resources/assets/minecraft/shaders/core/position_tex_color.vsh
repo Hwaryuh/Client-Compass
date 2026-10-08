@@ -23,8 +23,6 @@ layout(location = 2) in vec4 Color;
 layout(location = 0) out vec2 texCoord0;
 layout(location = 1) out vec4 vertexColor;
 
-// GUI pixels, independent of physical window resolution and GUI scale.
-const float COMP_TOP_Y = 28.0;
 const ivec3 COMP_TAG_RGB = ivec3(23, 241, 173);
 const float COMP_EDGE_FADE_START = 68.0;
 const float COMP_EDGE_FADE_END = 84.0;

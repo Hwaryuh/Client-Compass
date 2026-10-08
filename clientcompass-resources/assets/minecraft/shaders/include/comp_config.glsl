@@ -1,6 +1,10 @@
 #ifndef COMP_CONFIG_GLSL
 #define COMP_CONFIG_GLSL
 
+// 화면 상단에서 나침반까지의 거리 (양수: 아래, 음수: 위)
+// 기본값: 28.0
+#define COMP_TOP_Y 28.0
+
 // 바닐라 HUD 이동 (1: 켜기, 0: 끄기)
 #define COMP_HUD_LOWER_ENABLED 1
 
