@@ -8,6 +8,8 @@
 
 클라이언트 렌더 기반 나침반입니다. 리소스팩을 의존하며, 1.21.6 이후 업데이트된 Locator Bar를 활용합니다.
 
+https://github.com/user-attachments/assets/515d3d21-3d8d-4530-81b8-a62e0cb902df
+
 ### 지원 환경
 
 - Minecraft Java 26.3 (Paper)
