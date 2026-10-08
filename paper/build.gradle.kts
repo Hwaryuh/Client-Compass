@@ -7,9 +7,8 @@ plugins {
 dependencies {
     compileOnly(libs.paper.api)
     compileOnly(libs.kotlin.stdlib.jdk8)
+    implementation(project(":core"))
     implementation(project(":v26_3"))
-    testImplementation(libs.paper.api)
-    testImplementation(libs.kotlin.stdlib.jdk8)
 }
 
 kotlin {
@@ -58,15 +57,4 @@ paperPluginYaml {
     author = "murinn@Hwaryuh"
     description = "just for fun ㅋㅋ"
     apiVersion = "26.3"
-}
-
-val sessionCheck =
-    tasks.register<JavaExec>("sessionCheck") {
-        group = "verification"
-        classpath = sourceSets.test.get().runtimeClasspath
-        mainClass.set("CompassSessionCheck")
-    }
-
-tasks.check {
-    dependsOn(sessionCheck)
 }

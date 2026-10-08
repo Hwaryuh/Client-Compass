@@ -13,5 +13,6 @@ rootProject.name = "ClientCompass"
 
 include(
     ":paper",
+    ":core",
     ":v26_3",
 )

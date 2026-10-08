@@ -4,6 +4,7 @@ plugins {
 }
 
 dependencies {
+    implementation(project(":core"))
     compileOnly(libs.kotlin.stdlib.jdk8)
     paperweight.paperDevBundle(libs.versions.paper.get())
     testImplementation(libs.kotlin.stdlib.jdk8)
