@@ -34,6 +34,6 @@ class CompassCommands(
                         1
                     },
                 ).build()
-        registrar.register(command, "Paper Plugin for Client-Compass", listOf("cc"))
+        registrar.register(command, listOf("cc"))
     }
 }
