@@ -1,10 +1,4 @@
-<div align="center">
-
-# Client-Compass
-
-</div>
-
-* * *
+<h1 align="center">Client-Compass</h1>
 
 클라이언트 렌더 기반 나침반입니다. 리소스팩을 의존하며, 1.21.6 이후 업데이트된 Locator Bar를 활용합니다.
 
